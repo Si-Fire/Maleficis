@@ -22,7 +22,6 @@ public class BlockBase extends Block implements IHasModel
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
-		
 	}
 
 	@Override

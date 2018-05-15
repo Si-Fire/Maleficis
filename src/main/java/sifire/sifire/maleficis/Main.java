@@ -10,18 +10,24 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import sifire.sifire.maleficis.proxy.CommonProxy;
 import sifire.sifire.maleficis.util.Reference;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = Main.MOD_ID, name = Main.NAME, version = Main.VERSION)
 public class Main {
+	
+	public static final String MOD_ID = "maleficis";
+	public static final String NAME = "Maleficis";
+	public static final String VERSION = "0.0.1";
+	public static final String ACCEPTED_VERSIONS = "(1.12.2)";
+	
 	@Instance
 	public static Main instance;
 	
-	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
+	@SidedProxy(clientSide = "sifire.sifire.maleficis.proxy.ClientProxy", serverSide = "sifire.sifire.maleficis.proxy.CommonProxy")
 	public static CommonProxy proxy;
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-		
+		System.out.println(NAME + " is loading.");
 	}
 	
 	@EventHandler

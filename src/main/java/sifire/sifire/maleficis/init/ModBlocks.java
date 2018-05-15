@@ -11,7 +11,7 @@ import sifire.sifire.maleficis.blocks.BlockBase;
 public class ModBlocks 
 {
 	
-	public static final List<Blocks> BLOCKS = new ArrayList<Blocks>();
+	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	public static final Block COPPER_BLOCK = new BlockBase("copper_block", Material.IRON);
 	

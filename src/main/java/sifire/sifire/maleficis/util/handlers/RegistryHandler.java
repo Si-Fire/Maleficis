@@ -37,7 +37,7 @@ public class RegistryHandler
 			}
 		}
 		
-		for(Blocks block : ModBlocks.BLOCKS)
+		for(Block block : ModBlocks.BLOCKS)
 		{
 			if(block instanceof IHasModel)
 			{

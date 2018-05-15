@@ -1,3 +1,8 @@
+//Maleficis
 
-
+//Items
 item.copper_ingot.name=Copper Ingot
+
+//Blocks
+item.copper_block.name=Copper Block
+
