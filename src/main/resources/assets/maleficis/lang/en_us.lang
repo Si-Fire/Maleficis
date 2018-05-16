@@ -4,5 +4,5 @@
 item.copper_ingot.name=Copper Ingot
 
 //Blocks
-item.copper_block.name=Copper Block
+tile.copper_block.name=Copper Block
 
