@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "maleficis:blocks/copper_block"
+       "all": "maleficis:blocks/block_test"
    }
 }

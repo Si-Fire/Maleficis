@@ -1,8 +1,8 @@
 //Maleficis
 
 //Items
-item.copper_ingot.name=Copper Ingot
+item.item_test.name=Test Item
 
 //Blocks
-tile.copper_block.name=Copper Block
+tile.block_test.name=Test Block
 
