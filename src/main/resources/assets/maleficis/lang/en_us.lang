@@ -15,3 +15,6 @@ item.boots_test.name=Test Boots
 //Blocks
 tile.block_test.name=Test Block
 
+//Creative Tabs
+itemGroup.maleficistab=Maleficis
+

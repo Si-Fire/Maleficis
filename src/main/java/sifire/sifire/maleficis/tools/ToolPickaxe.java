@@ -14,7 +14,7 @@ public class ToolPickaxe extends ItemPickaxe implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(Main.MALEFICISTAB);
 		
 		ModItems.ITEMS.add(this);
 	}

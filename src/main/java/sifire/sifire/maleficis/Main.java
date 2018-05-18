@@ -1,5 +1,6 @@
 package sifire.sifire.maleficis;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -8,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import sifire.sifire.maleficis.proxy.CommonProxy;
+import sifire.sifire.maleficis.tabs.MaleficisTab;
 import sifire.sifire.maleficis.util.Reference;
 
 @Mod(modid = Main.MOD_ID, name = Main.NAME, version = Main.VERSION)
@@ -20,6 +22,8 @@ public class Main {
 	
 	@Instance
 	public static Main instance;
+	
+	public static final CreativeTabs MALEFICISTAB = new MaleficisTab("maleficistab");
 	
 	@SidedProxy(clientSide = "sifire.sifire.maleficis.proxy.ClientProxy", serverSide = "sifire.sifire.maleficis.proxy.CommonProxy")
 	public static CommonProxy proxy;
