@@ -11,6 +11,8 @@ item.helmet_test.name=Test Helmet
 item.chestplate_test.name=Test Chestplate
 item.leggings_test.name=Test Leggings
 item.boots_test.name=Test Boots
+item.tool_boline.name=Boline
+item.tool_arthame.name=Arthame
 
 //Blocks
 tile.block_test.name=Test Block

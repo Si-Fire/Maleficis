@@ -36,6 +36,9 @@ public class ModItems
 	public static final Item HOE_TEST = new ToolHoe("hoe_test", TOOL_TEST);
 	public static final Item SWORD_TEST = new ToolSword("sword_test", TOOL_TEST);
 	
+	public static final Item TOOL_BOLINE = new ItemBase("tool_boline");
+	public static final Item TOOL_ARTHAME = new ItemBase("tool_arthame");
+	
 	//Armour
 	public static final Item HELMET_TEST = new ArmourBase("helmet_test", ARMOUR_TEST, 1, EntityEquipmentSlot.HEAD);
 	public static final Item CHESTPLATE_TEST = new ArmourBase("chestplate_test", ARMOUR_TEST, 1, EntityEquipmentSlot.CHEST);
