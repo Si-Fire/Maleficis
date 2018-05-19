@@ -2,20 +2,11 @@
 
 //Items
 item.item_test.name=Test Item
-item.pickaxe_test.name=Test Pickaxe
-item.axe_test.name=Test Axe
-item.shovel_test.name=Test Shovel
-item.hoe_test.name=Test Hoe
-item.sword_test.name=Test Sword
-item.helmet_test.name=Test Helmet
-item.chestplate_test.name=Test Chestplate
-item.leggings_test.name=Test Leggings
-item.boots_test.name=Test Boots
 item.tool_boline.name=Boline
 item.tool_arthame.name=Arthame
 
 //Blocks
-tile.block_test.name=Test Block
+tile.ore_salt.name=Salt Ore
 
 //Creative Tabs
 itemGroup.maleficistab=Maleficis
