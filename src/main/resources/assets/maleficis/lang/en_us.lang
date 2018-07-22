@@ -2,8 +2,20 @@
 
 //Items
 item.item_test.name=Test Item
+<<<<<<< HEAD
 item.tool_boline.name=Boline
 item.tool_arthame.name=Arthame
+=======
+item.pickaxe_test.name=Test Pickaxe
+item.axe_test.name=Test Axe
+item.shovel_test.name=Test Shovel
+item.hoe_test.name=Test Hoe
+item.sword_test.name=Test Sword
+item.helmet_test.name=Test Helmet
+item.chestplate_test.name=Test Chestplate
+item.leggings_test.name=Test Leggings
+item.boots_test.name=Test Boots
+>>>>>>> parent of 66f0ada... Tool, Armour, bloine and arthame
 
 //Blocks
 tile.block_salt.name=Salt Block

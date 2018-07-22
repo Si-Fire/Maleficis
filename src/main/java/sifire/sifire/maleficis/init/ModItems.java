@@ -30,8 +30,16 @@ public class ModItems
 	public static final Item ITEM_TEST = new ItemBase("item_test");
 	
 	//Tools
+<<<<<<< HEAD
 	public static final Item TOOL_BOLINE = new ItemBase("tool_boline");
 	public static final Item TOOL_ARTHAME = new ItemBase("tool_arthame");
+=======
+	public static final Item PICKAXE_TEST = new ToolPickaxe("pickaxe_test", TOOL_TEST);
+
+	public static final Item SHOVEL_TEST = new ToolShovel("shovel_test", TOOL_TEST);
+	public static final Item HOE_TEST = new ToolHoe("hoe_test", TOOL_TEST);
+	public static final Item SWORD_TEST = new ToolSword("sword_test", TOOL_TEST);
+>>>>>>> parent of 66f0ada... Tool, Armour, bloine and arthame
 	
 	//Armour
 
