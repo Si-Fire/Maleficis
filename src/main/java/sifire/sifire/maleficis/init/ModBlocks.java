@@ -13,7 +13,7 @@ public class ModBlocks
 	
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
-	public static final Block ORE_SALT = new BlockOres("ore_salt", "overworld");
+	public static final Block BLOCK_SALT = new BlockBase("block_salt", Material.SAND);
 
 	
 }

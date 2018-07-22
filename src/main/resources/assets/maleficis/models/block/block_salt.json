@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "maleficis:blocks/ore_salt"
+       "all": "maleficis:blocks/block_salt"
    }
 }

@@ -6,7 +6,7 @@ item.tool_boline.name=Boline
 item.tool_arthame.name=Arthame
 
 //Blocks
-tile.ore_salt.name=Salt Ore
+tile.block_salt.name=Salt Block
 
 //Creative Tabs
 itemGroup.maleficistab=Maleficis
